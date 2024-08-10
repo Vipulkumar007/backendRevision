@@ -1,0 +1,23 @@
+NodeJS is java scripts runtime environment
+JS se backend nahi likkha ja sakta h
+Islie rayan dahl ne chrome k v8 engine jo ki open source h use leker madify kia jo ki c++ m likha hua tha 
+ab usne chrome k v8 engine k code jo ki c++ m likha hua h usko JS k code se wrap kr dia 
+ab js k code c++ k code k wrapper h
+ab hm jo bhi js k code likhte h wo jake js wrapper bnta h uske bad wo wrapper usko c++ m change krke backend banata h
+ab question uthta h kya hm directly c++ se server bna skte h kya?
+the answer is no because c++ k code js se wrapped h Islie
+Now,in consise c++ k code jo ki v8 engine h and wo wrapped h js se so this two combined is called node js
+Now, node js ko runtime environment islie bolte h kyuki js se backend hm tb hi bna ya likh skte h jb tk nodejs chl rha ho
+NPM kya hota h full form is Node Package Manager jaise ki hm play store se app download krke use krte h same as that hm npm se dusre loge k likhe hue code ko download krke use kr skte h
+Agar folder m koi package.json ni h iska matlab ye h ki node abhi apke packagem installed ni h
+Node ko install krne k cmd h npm init
+ab jace node k documentation dekh
+isme jo bhi modules dikh rhe h wo sare hmare package.json k sath install ho chuke h
+use apne project m use krne k lie hme apne file m use require krke lake use krna hota h
+Ab file system k sath kam krna sikho
+Node k project ko run krne k lie hm cmd node index.js command k use krte h
+Ab ham dekhenge http protocol k bare m
+protocol k matlab hota h set of rule ab question arise hota ki ye jo rules h jo ki http,https,ip,mac m follow krna padta h ye hota kaha h
+to the answer is ye sare rules hmare operating system k sath ata h os m pura networking k rules likhe hue rhte h or hme wahi ffollow krna hota hai
+ab http protcol wo rule hota h jise use kie bina n to hm internet m kuch bhej skte h na hi kuch manga skte hai
+ab hm http k code next class m dekhege
