@@ -1,0 +1,11 @@
+npm - node package manager
+npm is like play store jaha se hm packages jo ki set of codes hote use download krke apne code m use krte h
+npm se jo bhi hm download krte h we call it as package
+node js core se jo phle se hi installed atta h we call it as module
+install anything from npm - npm i package_name
+uninstall anything from npm - npm uninstall package_name
+installing particular version - npm i package_name@version
+what are dependencies - supose we are using express and we downloaded it using command npm i express so 64 more packages including express is installed so all other files are dependencies for express
+what are devdependencies - asi dependencies jo kewal development k time kam ae and not used once the website is deployed like nodemon and color of text in cmd prmpt
+what are script - hum kabhi bhi koi ek command chalate h either npm start or npm run dev to hm kabhi run likhte h kabhi ni kyuki jisme hm run nahi likhte h uska list windows k pass rhata h ya wo node m present hota h or wo usse match krke usko run kr deta h pr run k lie hme khud se script dena padta h 
+so now go to package.json go to scripts and add one line "start": "node ./script.js" now whenever you will run npm start then script.js will run
