@@ -1,8 +1,8 @@
 express ek npm package h
 express is a framework
-framewor -> framework wo hota h jo hme ek desired way m kuch krne ko boltal h mtlb hme wo krna hi hota h for eg in express hme routing krna hi padta h listen krna hi padta h later hm decide kr skte h ki us response ya listen m kya bhejna chahte h
-express -  manages everything from giving request to giving response
-to install express give cmd npm i express
+framework -> framework wo hota h jo hme ek desired way m kuch krne ko boltal h mtlb hme wo krna hi hota h for eg in express hme routing krna hi padta h listen krna hi padta h later hm decide kr skte h ki us response ya listen m kya bhejna chahte h
+express -  manages everything from taking request to giving response
+to install express give cmd -> npm i express
 express ko require krne se wo ek function return krta h
 uss function ko run krke ek variable m store kr lete h
 ab usse variable se hm sare express k functionality k use kr skte h
@@ -10,4 +10,6 @@ Ab question h routes or middleware kya hota h to jo bi / k bad h wo routes h or 
 eg app.get(routes,middleware or requestHandler)
 eg app.get('/',function(){})
 now ek bar hm server chla de uske bad output m kuch change kre to it will not reflect uske lie hme server fir se start krna hoga
-or hm use kr skte h nodemon for first time in system use cmd npm i nodemon -g the nodemon script.js
+or hm use kr skte h nodemon for first time in system use cmd npm i nodemon -g then nodemon script.js
+middleware -> jo bhi chij hm routes se phle krana chahte h wo middleware se hota h Eg - Hm koi facebook le request kie to ab ye facebook ke server m jaega or us routes ko dhundhe ga or usse response lega to routes se phle hm agar kuch bhi krna chahte h wo middleware hota h 
+also ki agar response ja rha h tb bhi wo kuch change kr skta h . Eg - jb server se kuch response ja rha tha tb usme bs responce tha so now ab middleware ki madad se hm uske sath user ka data bhi us responce ke sath add kr k show kra skte h
