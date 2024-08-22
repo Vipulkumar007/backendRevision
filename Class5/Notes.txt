@@ -1,0 +1,5 @@
+npm i cookie-parser
+hm jb bhi instaram login krte h to hm ek photo ko like krte h and then fir jb hm dobara kisi or photo ko like krte h to hme fir se login krna pdta and this goes on kuki ek br login krne k bad server hme bhul jata h
+Chlo ab ek example lete h jo is problem ko resolve krega to hm facebook se ek profile search krte k facebook k server m req gya facebook poocha ap kon apne apna detail dia eg:login then facebook k apko wo profile de di pr uske sath ek string attach kr di now that string is saved in the browser in frontend to ab ap kuch bhi next krna chahege to req k sath string bhi automatic sath m jaega so that bar bar apko credentials ni dalna pde so jo string ake browser m save hua use cookies bolte h 
+Or is cookies k wajah se jo frontend or backend k bich m jo connection establish hua use session bolte h
+So jb hm koi bhi form frontend m bhr k enter marte h to wo data backend m jata h or wo unreadable ho h lets say hexadecimal coded rahta h  to ab backend m wo data ko read krne k liye use krte h app.use(express.json());
